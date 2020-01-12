@@ -1,0 +1,14 @@
+﻿  Game.cpp
+  Main.cpp
+  MainWindow.cpp
+F:\Game Prg with Chili's\Poo Game (1st game)\Chili Framework 2016\Engine\Game.cpp(43,1): error C2512: 'Poo': no appropriate default constructor available
+F:\Game Prg with Chili's\Poo Game (1st game)\Chili Framework 2016\Engine\Poo.h(6,7): message : see declaration of 'Poo' (compiling source file Game.cpp)
+F:\Game Prg with Chili's\Poo Game (1st game)\Chili Framework 2016\Engine\Game.cpp(32,5): error C2614: 'Game': illegal member initialization: 'poo0' is not a base or member
+F:\Game Prg with Chili's\Poo Game (1st game)\Chili Framework 2016\Engine\Game.cpp(33,5): error C2614: 'Game': illegal member initialization: 'poo1' is not a base or member
+F:\Game Prg with Chili's\Poo Game (1st game)\Chili Framework 2016\Engine\Game.cpp(34,5): error C2614: 'Game': illegal member initialization: 'poo2' is not a base or member
+F:\Game Prg with Chili's\Poo Game (1st game)\Chili Framework 2016\Engine\Game.cpp(35,5): error C2614: 'Game': illegal member initialization: 'poo3' is not a base or member
+F:\Game Prg with Chili's\Poo Game (1st game)\Chili Framework 2016\Engine\Game.cpp(36,5): error C2614: 'Game': illegal member initialization: 'poo4' is not a base or member
+F:\Game Prg with Chili's\Poo Game (1st game)\Chili Framework 2016\Engine\Game.cpp(37,5): error C2614: 'Game': illegal member initialization: 'poo5' is not a base or member
+F:\Game Prg with Chili's\Poo Game (1st game)\Chili Framework 2016\Engine\Game.cpp(38,5): error C2614: 'Game': illegal member initialization: 'poo6' is not a base or member
+F:\Game Prg with Chili's\Poo Game (1st game)\Chili Framework 2016\Engine\Game.cpp(39,5): error C2614: 'Game': illegal member initialization: 'poo7' is not a base or member
+F:\Game Prg with Chili's\Poo Game (1st game)\Chili Framework 2016\Engine\Game.cpp(40,5): error C2614: 'Game': illegal member initialization: 'poo8' is not a base or member
