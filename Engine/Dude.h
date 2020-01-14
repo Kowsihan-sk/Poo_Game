@@ -10,15 +10,15 @@ public:
     void ClampToScreen();
     void Draw(Graphics& gfx) const;
     void Update(const Keyboard& kbd);
-    int Getx() const;
-    int Gety() const;
-    int GetWidth() const;
-    int GetHeight() const;
+    float Getx() const;
+    float Gety() const;
+    float GetWidth() const;
+    float GetHeight() const;
 
 private:
-    int x = 375;
-    int y = 275;
-    static constexpr int speed = 1;
-    static constexpr int width = 20;
-    static constexpr int height = 20;
+    float x = 375.0f;
+    float y = 275.0f;
+    static constexpr float speed = 2.0f;
+    static constexpr float width = 20.0f;
+    static constexpr float height = 20.0f;
 };

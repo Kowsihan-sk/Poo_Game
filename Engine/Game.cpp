@@ -34,7 +34,7 @@ Game::Game( MainWindow& wnd )
     
 
 {
-    std::uniform_int_distribution<int> vDist(-1 , 1);
+    std::uniform_real_distribution<float> vDist(-2.3f , 2.3f);
 
     for (int i = 0; i < Npoos; i++) {
         poos[i].Init(xDist(rng), yDist(rng), vDist(rng), vDist(rng));

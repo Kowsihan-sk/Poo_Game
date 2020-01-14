@@ -5,18 +5,18 @@
 
 class Box {
 	public:
-		Box(int in_x, int in_y);
+		Box(float in_x, float in_y);
 		void Draw(Graphics& gfx) const;
 		bool BoxCollected(const Dude& dude);
-		void Respawn(int in_x, int in_y);
+		void Respawn(float in_x, float in_y);
 		void UpdateColor();
 		
 
 	private:
-		static constexpr int dimension = 20;
+		static constexpr float dimension = 20;
 		Color c = { 0,127,0 };
-		int x;
-		int y;
+		float x;
+		float y;
 		bool IncreasingColor = true;
 		
 };

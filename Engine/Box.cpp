@@ -1,6 +1,6 @@
 #include "Box.h"
 
-Box::Box(int in_x, int in_y)
+Box::Box(float in_x, float in_y)
 {
 	x = in_x;
 	y = in_y;
@@ -9,15 +9,15 @@ Box::Box(int in_x, int in_y)
 
 void Box::Draw(Graphics& gfx) const
 {
-	gfx.DrawRectDim(x, y, dimension, dimension, c);
+	gfx.DrawRectDim(int(x), int(y), int(dimension), int(dimension), c);
 }
 
 bool Box::BoxCollected(const Dude& dude)
 {
-    const int duderight = dude.Getx() + dude.GetWidth();
-    const int dudebottom = dude.Gety() + dude.GetHeight();
-    const int boxright = x +  dimension;
-    const int boxbottom = y + dimension;
+    const float duderight = dude.Getx() + dude.GetWidth();
+    const float dudebottom = dude.Gety() + dude.GetHeight();
+    const float boxright = x +  dimension;
+    const float boxbottom = y + dimension;
 
     return duderight >= x &&
            dude.Getx() <= boxright &&
@@ -28,7 +28,7 @@ bool Box::BoxCollected(const Dude& dude)
 }
 
 
-void Box::Respawn(int in_x, int in_y)
+void Box::Respawn(float in_x, float in_y)
 {
     x = in_x;
     y = in_y;
